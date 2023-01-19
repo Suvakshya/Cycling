@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================header section start here ====================== */
+header {
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.logo {
+    position: relative;
+    width: 63vh;
+    height: 30vh;
+    top: 0.5vh;
+}
+
+.logo img {
+    position: relative;
+    width: 30%;
+    height: 30%;
+}
+
+.logoname {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    width: 25vh;
+    top: 21px;
+    left: 10%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.menu1 {
+    position: relative;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 10vh;
+}
+
+header div ul li hr {
+    font-weight: bolder;
+
+}
+
+.menu1 ul {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 2%;
+    right: 9%;
+
+}
+
+.menu1 ul li {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin: 2% 5%;
+}
+
+.menu1 ul li a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.menu2 {
+    position: relative;
+    width: 100%;
+    background-image: url(/img/Tour-de-France-2018-stage-17-Grubers-9-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: 20s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in ease-out;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(img/menu2pic1.jpg);
+    }
+
+    20% {
+        background-image: url(img/menu2pic2.jpg);
+    }
+
+    40% {
+        background-image: url(img/menu2pic3.jpg);
+    }
+
+    60% {
+        background-image: url(img/menu2pic4.jpg);
+    }
+
+    80% {
+        background-image: url(/img/menu2pic5.jpg);
+    }
+
+    100% {
+        background-image: url(img/menu2pic6.jpg);
+    }
+
+}
+
+.menu2 nav ul {
+    display: flex;
+
+}
+
+.menu2 nav ul li {
+    list-style: none;
+    margin: 4% 3%;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu2 nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+/* ==============================header section end here======================== */
+/*==============================main section start here=======================  */
+main {
+    position: relative;
+    top: 37%;
+    background: rgb(192, 236, 248);
+    height: 200vh;
+    width: 100%;
+    bottom: 0;
+}
+
+.constantlychanging {
+    position: relative;
+    top: 1%;
+    margin: 0 2.5%;
+    background-image: url(/img/pexels-mike-1174103.jpg);
+    background-size: 100% 100%;
+    width: 95%;
+    height: 28%;
+}
+
+.changing {
+    position: relative;
+    top: 2%;
+    margin: 1% 2%;
+    background: rgb(45, 20, 146);
+    width: 47%;
+    height: 22%;
+    left: 48%;
+}
+
+.change {
+    position: relative;
+    top: 2%;
+    margin: 1% 2%;
+    background: url(/img/pexels-irene-lasus-90454.jpg);
+    background-size: 100% 100%;
+    width: 47%;
+    height: 22%;
+    left: 1%;
+}
+
+.chan {
+    position: relative;
+    top: 2%;
+    margin: 1% 2%;
+    background: url(/img/pexels-pixabay-161172.jpg);
+    background-size: 100% 100%;
+    width: 47%;
+    height: 22%;
+}
+
+/*===============================main section end here===========================*/
+/* ==============================footer section start here=======================*/
+footer {
+    position: relative;
+    background: rgb(20, 169, 178);
+    width: 100%;
+    height: 12vh;
+    bottom: 0%;
+}
+
+/* =============================footer section end here========================= */
