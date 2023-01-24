@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* ============================header section start here ====================== */
 header {
     width: 100%;
     height: 40%;
@@ -95,81 +96,4 @@ header div ul li hr {
         background-image: url(img/menu2pic6.jpg);
     }
 
-}
-
-.menu2 nav ul {
-    display: flex;
-}
-
-.menu2 nav ul li {
-    list-style: none;
-    margin: 4% 3%;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.menu2 nav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: xx-large;
-}
-
-/* ==============================header section end here======================== */
-/*==============================main section start here=======================  */
-main {
-    background: rgb(192, 236, 248);
-    height: 100%;
-    width: 100%;
-}
-
-.container {
-    margin: 1%;
-    /* padding: 0% 5%; */
-    font-size: larger;
-    color: rgb(255, 255, 255);
-    background-image: url(/img/pexels-pavel-danilyuk-5807630.jpg);
-    background-size: 100% 100%;
-    font-size: xx-large;
-    font-weight: bolder;
-}
-.container h1{
-    background: rgba(0, 0, 0, 0.226);
-    padding: 2%;
-}
-form{
-    /* border: 0.2rem solid rgba(0, 0, 0, 0.578); */
-    background: rgba(0, 0, 0, 0.226);
-    width: 70%;
-    margin-left:12%;
-    margin-bottom: 5%;
-}
-.box2{
-    width: 80%;
-    display: flex;
-}
-.box2 input{
-    
-    margin-left: 59px;
-}
-.box3{
-   justify-content: flex-end;
-}
-.container input{
-    font-size: x-large;
-    background:rgb(192, 236, 248); 
-    
-}
-button{
-    background:transparent;
-    color: rgb(146, 255, 200);;
-    font-size: xx-large;
-    font-weight: bold;
-    border-radius: 4%;
-    border: 2px solid rgb(106, 215, 186);
-}
-
-footer {
-    background: rgb(20, 169, 178);
-    width: 100%;
-    height: 5rem;
 }

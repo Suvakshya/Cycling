@@ -131,23 +131,25 @@ h1 {
     width: 90%;
     height: 100%;
     margin-left: 5%;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
 }
 .first {
     width: 90%;
     height: 90%;
     background: rgb(201, 41, 41);
     display: flex;
+    margin: 1%;
 }
 .first1{
-    height: 90%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     background-image: url(/img/pexels-pixabay-163491.jpg);
     background-size: 100% 100%;
 }
 .first2{
-        height: 90%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         background:chartreuse;
         background-size: 100% 100%;
 }
@@ -160,7 +162,7 @@ h1 {
 }
 .second1{
     height: 100%;
-    width: 90%;
+    width: 100%;
     background: rgb(211, 136, 136);
 }
 .second2{

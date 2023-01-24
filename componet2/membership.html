@@ -28,7 +28,7 @@
                 <ul>
                     <li><a href="getinvolved.html">Get involved</a></li>
                     <li><a href="membership.html">Membership</a></li>
-                    <li><a href="#">Events</a></li>
+                    <li><a href="events.html">Events</a></li>
                     <li><a href="#">Foundation</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#">Future</a></li>
@@ -39,31 +39,36 @@
     </header>
     <main>
         <div class="container">
-            <h1>Get your <br> free <br> membership</h1>
+
+            <h1>Get your free membership</h1>
             <br>
-            <label for="name">Name:</label>
-            <input type="text" placeholder="Enter your full name" name="Name" id="name">
-            <br>
-            <br>
-            <label for="age">Age:</label>
-            <input type="text" placeholder="Enter your age" name="Age" id="age">
-            <br>
-            <br>
-            <label for="gendre">Gendre</label>
-            <input type="radio" name="gendre" id="gendre">male
-            <input type="radio" name="gendre" id="gendre">female
-            <br>
-            <br>
+            <form>
+                <form action="">
+            <div>
+                <label for="first name">first Name:</label>
+                <input type="text" placeholder="Enter your full name" name=" first Name" id="first name">&nbsp;&nbsp;
+                <label for="last name">last Name:</label>
+                <input type="text" placeholder="Enter your full name" name="last Name" id="last name">
+            </div>  <br>          
+            <div class="box2">
             <label for="email">E-mail:</label>
-            <input type="email" placeholder="example@gmail.com" name="email" id="email">
+            <input type="email" placeholder="example@gmail.com" name="email" id="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="age">Age:</label>
+            <input type="text"  placeholder="Enter your age" name="Age" id="age">
+            </div>
             <br>
-            <br>
+            
+            <div>
             <label for="address">Address</label>
-            <input type="text" placeholder="Enter your local address" name="address" id="address">
-            <br>
-            <br>
+            <input type="text" placeholder="Enter your local address" name="address" id="address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label for="date">Date Of Birth:</label>
             <input type="date" placeholder="" name="date" id="date">
+            </div>
+            <br>
+            <label for="gender">Gender:</label>&nbsp;
+            <label for="male"><input type="radio" name="gender" id="male">Male</label>
+            <label for="female"><input type="radio" name="gender" id="female">female&nbsp;</label>
+            <label for="custom"><input type="radio" name="gender" id="custom">custom&nbsp;</label>
             <br>
             <br>
             <label for="experience">Experience:</label>
@@ -74,14 +79,17 @@
             <input type="password" placeholder="Password" name="password" id="password">
             <br>
             <br>
-            <label for="conformPassword">Conform Password:</label>
-            <input type="conformpassword" placeholder="conform Password" name="conformpassword" id="conformpassword">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="confirmpassword" placeholder="confirm Password" name="confirmpassword" id="confirmpassword">
             <br>
             <br>
             <button>submit</button>
             <br>
             <br>
+        </form>
         </div>
+        
+
     </main>
     <footer></footer>
 </body>

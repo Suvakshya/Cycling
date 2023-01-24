@@ -132,6 +132,7 @@ main {
     width: 95%;
     height: 33%;
     display: flex;
+    position: relative;
 }
 
 .constantlychanging .content1 {
@@ -165,16 +166,18 @@ main {
     background: transparent;
     font-size: 16px;
     margin-top: 20px;
-    background: red;
+    /* background: rgb(93, 73, 73); */
 }
 
 .constantlychanging .content2 {}
 
 .constantlychanging .content3 {
+    position: absolute ;
+    top: 30%;
     width: 18%;
     margin-left: 0%;
     text-align: center;
-    background: red;
+    /* background: rgb(111, 95, 95); */
 }
 
 .constantlychanging:hover {
