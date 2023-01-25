@@ -6,11 +6,11 @@
 /* ============================header section start here ====================== */
 header {
     width: 100%;
-    height: 40%;
+    height: 60%;
 }
 
 .logo {
-    background-image: url(/img/cycling\ nepaal1.png);
+    background-image: url(img/cycling\ nepaal1.png);
     background-size: 100% 100%;
     width: 10%;
 }
@@ -56,7 +56,7 @@ header div ul li hr {
 .menu2 {
     width: 100%;
     height: 30vh;
-    background-image: url(/img/Tour-de-France-2018-stage-17-Grubers-9-1.jpg);
+    background-image: url(img/Tour-de-France-2018-stage-17-Grubers-9-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -89,7 +89,7 @@ header div ul li hr {
     }
 
     80% {
-        background-image: url(/img/menu2pic8.jpg);
+        background-image: url(img/menu2pic8.jpg);
     }
 
     100% {
@@ -119,16 +119,15 @@ header div ul li hr {
 .firstevent {
     width: 100%;
     height: 200px;
-    background: red;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
     margin-top: 2%;
-
+    color: white;
 }
 
 .firstevent1 {
-    background: url(./img/women\ cycling.webp);
+    background: url(img/women\ cycling.webp);
     background-size: 100% 100%;
     height: 100%;
     width: 30%;
@@ -138,15 +137,15 @@ header div ul li hr {
 .fe1 {
     width: 100%;
     height: 35%;
-    background: rgba(118, 103, 103, 0.586);
+    background: rgba(118, 103, 103, 0.826);
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
 .firstevent2 {
-    /* background:url(./img/menu2pic1.jpg) ; */
-    background: rgb(141, 184, 23);
+    background: url(img/pexels-run-ffwpu-5687424.jpg);
+    background-size: 100% 100%;
     height: 100%;
     width: 30%;
     position: relative;
@@ -154,16 +153,16 @@ header div ul li hr {
 
 .fe2 {
     width: 100%;
-    height: 20%;
-    background: rgba(226, 29, 29, 0.586);
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
 .firstevent3 {
-    /* background: url(./img/pexels-allan-carvalho-13173932.jpg); */
-    background: rgb(89, 62, 62);
+    background: url(img/pexels-run-ffwpu-5687417.jpg);
+    background-size: 100% 100%;
     height: 100%;
     width: 30%;
     position: relative;
@@ -171,8 +170,8 @@ header div ul li hr {
 
 .fe3 {
     width: 100%;
-    height: 20%;
-    background: rgba(226, 29, 29, 0.586);
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -181,99 +180,177 @@ header div ul li hr {
 .secondevent {
     width: 100%;
     height: 200px;
-    background: red;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    color: white;
 }
 
 .secondevent1 {
-    /* background: url(./img/foirest\ cycling.html); */
-    background: rgb(178, 183, 164);
+    background: url(img/pexels-team-evelo-15021419.jpg);
+    background-size: 100% 100%;
     height: 100%;
     width: 30%;
-
+    position: relative;
+}
+.se1 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .secondevent2 {
-    /* background:url(./img/menu2pic1.jpg) ; */
-    background: rgb(141, 184, 23);
+    background: url(img/pexels-t-b-15765.jpg);
+    background-size: 100% 100%;
     height: 100%;
     width: 30%;
+    position: relative;
+}
 
+.se2 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .secondevent3 {
-    /* background: url(./img/pexels-allan-carvalho-13173932.jpg); */
-    background: rgb(89, 62, 62);
+background: url(img/pexels-run-ffwpu-5687405.jpg);
+    background-size: 100% 100%;
     height: 100%;
     width: 30%;
+    position: relative;
+}
+.se3 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .thirdevent {
     width: 100%;
     height: 200px;
-    background: red;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    color: white;
 }
 
+
 .thirdevent1 {
-    /* background: url(./img/foirest\ cycling.html); */
-    background: rgb(178, 183, 164);
+    background: url(img/pexels-run-ffwpu-5687395.jpg);
+    background-size: cover;
     height: 100%;
     width: 30%;
+    position: relative;
 
+}
+.te1 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .thirdevent2 {
-    /* background:url(./img/menu2pic1.jpg) ; */
-    background: rgb(141, 184, 23);
+    background:url(img/pexels-pixabay-248559.jpg) ;
+    background-size: cover;
     height: 100%;
     width: 30%;
-
+position: relative;
+}
+.te2 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .thirdevent3 {
-    /* background: url(./img/pexels-allan-carvalho-13173932.jpg); */
-    background: rgb(89, 62, 62);
+    background: url(img/pexels-pixabay-163491.jpg); 
+    background-size: cover;
     height: 100%;
     width: 30%;
+    position: relative;
+}
+.te3 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .forthevent {
     width: 100%;
     height: 200px;
-    background: red;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    color: white;
 }
 
 .forthevent1 {
-    /* background: url(./img/foirest\ cycling.html); */
-    background: rgb(178, 183, 164);
+    background-image: url(./img/pexels-pavel-danilyuk-5807576.jpg);
+    background-size: cover;
     height: 100%;
     width: 30%;
-
+    position: relative;
+}
+.fe1 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .forthevent2 {
-    /* background:url(./img/menu2pic1.jpg) ; */
-    background: rgb(141, 184, 23);
+    background-image: url(./img/pexels-matheus-wladeka-6501345.jpg);
+    background-size: cover;
     height: 100%;
     width: 30%;
-
+    position: relative;
+}
+.fe2 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .forthevent3 {
-    /* background: url(./img/pexels-allan-carvalho-13173932.jpg); */
-    background: rgb(89, 62, 62);
+    background: url(./img/pexels-dafne-munguía-7771159.jpg);
+    background-size: cover;
+   
     height: 100%;
     width: 30%;
+    position: relative;
 }
-
+.fe3 {
+    width: 100%;
+    height: 35%;
+    background: rgba(118, 103, 103, 0.586);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 footer {
     margin-top: 3%;
     background: rgb(20, 169, 178);

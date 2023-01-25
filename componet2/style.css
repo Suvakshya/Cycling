@@ -6,11 +6,11 @@
 /* ============================header section start here ====================== */
 header {
     width: 100%;
-    height: 40%;
+    height: 60%;
 }
 
 .logo {
-    background-image: url(/img/cycling\ nepaal1.png);
+    background-image: url(img/cycling\ nepaal1.png);
     background-size: 100% 100%;
     width: 10%;
 }
@@ -56,7 +56,7 @@ header div ul li hr {
 .menu2 {
     width: 100%;
     height: 30vh;
-    background-image: url(/img/Tour-de-France-2018-stage-17-Grubers-9-1.jpg);
+    background-image: url(img/Tour-de-France-2018-stage-17-Grubers-9-1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -89,7 +89,7 @@ header div ul li hr {
     }
 
     80% {
-        background-image: url(/img/menu2pic8.jpg);
+        background-image: url(img/menu2pic8.jpg);
     }
 
     100% {
@@ -127,7 +127,7 @@ main {
 
 .constantlychanging {
     margin: 1% 2.5%;
-    background-image: url(/img/pexels-mike-1174103.jpg);
+    background-image: url(img/pexels-mike-1174103.jpg);
     background-size: 100% 100%;
     width: 95%;
     height: 33%;
@@ -198,7 +198,7 @@ main {
 
 .changing1 {
     position: relative;
-    background-image: url(/img/pexels-dó-castle-2270329.jpg);
+    background-image: url(img/pexels-dó-castle-2270329.jpg);
     background-size: 100% 100%;
     width: 50%;
     height: 100%;
@@ -238,7 +238,7 @@ main {
 }
 
 .change2 {
-    background: url(/img/pexels-irene-lasus-90454.jpg);
+    background: url(img/pexels-irene-lasus-90454.jpg);
     background-size: 100% 100%;
     width: 50%;
     height: 100%;
@@ -253,7 +253,7 @@ main {
 }
 
 .chan1 {
-    background: url(/img/pexels-pixabay-161172.jpg);
+    background: url(img/pexels-pixabay-161172.jpg);
     background-size: 100% 100%;
     width: 50%;
     height: 100%;
