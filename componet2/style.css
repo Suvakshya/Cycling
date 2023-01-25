@@ -169,8 +169,6 @@ main {
     /* background: rgb(93, 73, 73); */
 }
 
-.constantlychanging .content2 {}
-
 .constantlychanging .content3 {
     position: absolute ;
     top: 30%;
@@ -178,11 +176,6 @@ main {
     margin-left: 0%;
     text-align: center;
     /* background: rgb(111, 95, 95); */
-}
-
-.constantlychanging:hover {
-
-    /* background: url(/img/menu2pic1.jpg) */
 }
 
 /* ==============================contian2 start here=========================== */
@@ -282,8 +275,36 @@ ul li span{
 /* ==============================footer section start here=======================*/
 footer {
     background: rgb(20, 169, 178);
-    width: 100%;    
-    height: 5rem;
+    width: 100%;
+    height: 6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0 0 0;
+    gap: 1.5%;
+}
+
+.fa-brands {
+    size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-solid {
+    size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.footercontent {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 1%;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 /* =============================footer section end here========================= */
