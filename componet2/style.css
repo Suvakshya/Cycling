@@ -124,56 +124,55 @@ main {
     width: 100%;
     bottom: 0;
 }
-
-.constantlychanging {
-    margin: 1% 2.5%;
-    background-image: url(img/pexels-mike-1174103.jpg);
-    background-size: 100% 100%;
-    width: 95%;
-    height: 33%;
-    display: flex;
-    position: relative;
-}
-
-.constantlychanging .content1 {
+.conten1 {
     width: 20%;
     opacity: 0.7;
-    height: 100%;
+    height: 96%;
     background: rgba(0, 0, 0, 0.613);
+    position: absolute;
 }
 
-.constantlychanging .content2 {
+.conten2 {
     width: 20%;
     opacity: 0.8;
-    height: 100%;
+    height: 96%;
     background: rgba(0, 0, 0, 0.323);
+    position: absolute;
+    left: 20%;
 }
 
-.constantlychanging .content3 h3 {
+.conten3 h3 {
     font-size: 28px;
     color: white;
 }
 
-.constantlychanging .content3 i {
+.conten3 h3 {
     font-size: 28px;
     color: white;
-    
+
 }
 
-.constantlychanging .content3 button {
+.conten3 button {
     width: 107px;
     height: 43px;
     background: transparent;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
-    /* background: rgb(93, 73, 73); */
+    /* background: rgb(96, 78, 78); */
+    color: white;
+    border-radius: 4%;
+
 }
 
-.constantlychanging .content3 {
-    position: absolute ;
+.conten3 button:hover {
+    background: rgb(220, 112, 112);
+}
+
+.conten3 {
+    position: absolute;
     top: 30%;
     width: 18%;
-    margin-left: 0%;
+    margin-left: 2%;
     text-align: center;
     /* background: rgb(111, 95, 95); */
 }
@@ -222,7 +221,7 @@ main {
 }
 
 .change1 {
-    
+
     background-size: 100% 100%;
     width: 48%;
     height: 100%;
@@ -259,16 +258,20 @@ main {
     color: rgb(58, 172, 117);
     font-size: x-large;
     margin-left: 2%;
+    padding-left: 10%;
 }
-ul{
+
+ul {
     list-style: none;
 }
-ul li span{
+
+ul li span {
     background: #272727;
     border-radius: 50%;
     width: 50px;
     height: 50px;
 }
+
 /* =============================contain4 end here=============================== */
 
 /*===============================main section end here===========================*/
@@ -316,8 +319,8 @@ footer {
 .slideshow-container {
     max-width: 92%;
     position: relative;
-    margin:auto;
-    padding-top:1%
+    margin: auto;
+    padding-top: 1%
 }
 
 /* Hide the images by default */
@@ -330,13 +333,13 @@ footer {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 47%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 50px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;

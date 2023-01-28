@@ -114,7 +114,7 @@ header div ul li hr {
     text-decoration: none;
     font-size: xx-large;
 }
-
+/* ========================header section end here======================== */
 /*========================= main section start here======================= */
 .firstevent {
     width: 100%;
@@ -201,7 +201,6 @@ header div ul li hr {
     bottom: 0;
     left: 0;
 }
-
 .secondevent2 {
     background: url(img/pexels-t-b-15765.jpg);
     background-size: 100% 100%;
@@ -209,7 +208,6 @@ header div ul li hr {
     width: 30%;
     position: relative;
 }
-
 .se2 {
     width: 100%;
     height: 35%;
@@ -218,7 +216,6 @@ header div ul li hr {
     bottom: 0;
     left: 0;
 }
-
 .secondevent3 {
 background: url(img/pexels-run-ffwpu-5687405.jpg);
     background-size: 100% 100%;
@@ -234,7 +231,6 @@ background: url(img/pexels-run-ffwpu-5687405.jpg);
     bottom: 0;
     left: 0;
 }
-
 .thirdevent {
     width: 100%;
     height: 200px;
@@ -243,15 +239,12 @@ background: url(img/pexels-run-ffwpu-5687405.jpg);
     justify-content: space-around;
     color: white;
 }
-
-
 .thirdevent1 {
     background: url(img/pexels-run-ffwpu-5687395.jpg);
     background-size: cover;
     height: 100%;
     width: 30%;
     position: relative;
-
 }
 .te1 {
     width: 100%;
@@ -261,7 +254,6 @@ background: url(img/pexels-run-ffwpu-5687405.jpg);
     bottom: 0;
     left: 0;
 }
-
 .thirdevent2 {
     background:url(img/pexels-pixabay-248559.jpg) ;
     background-size: cover;
@@ -277,7 +269,6 @@ position: relative;
     bottom: 0;
     left: 0;
 }
-
 .thirdevent3 {
     background: url(img/pexels-pixabay-163491.jpg); 
     background-size: cover;
@@ -293,7 +284,6 @@ position: relative;
     bottom: 0;
     left: 0;
 }
-
 .forthevent {
     width: 100%;
     height: 200px;
@@ -302,7 +292,6 @@ position: relative;
     justify-content: space-around;
     color: white;
 }
-
 .forthevent1 {
     background-image: url(./img/pexels-pavel-danilyuk-5807576.jpg);
     background-size: cover;
@@ -318,7 +307,6 @@ position: relative;
     bottom: 0;
     left: 0;
 }
-
 .forthevent2 {
     background-image: url(./img/pexels-matheus-wladeka-6501345.jpg);
     background-size: cover;
@@ -334,11 +322,9 @@ position: relative;
     bottom: 0;
     left: 0;
 }
-
 .forthevent3 {
     background: url(./img/pexels-dafne-munguía-7771159.jpg);
     background-size: cover;
-   
     height: 100%;
     width: 30%;
     position: relative;
@@ -351,6 +337,8 @@ position: relative;
     bottom: 0;
     left: 0;
 }
+/* =========================mnain section end here================================================== */
+/* =========================footer section start here=============================================== */
 footer {
     margin-top: 3%;
     background: rgb(20, 169, 178);
@@ -381,3 +369,4 @@ footer {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
+/* =========================footer section end here-====================================== */
