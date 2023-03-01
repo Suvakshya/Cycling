@@ -1,6 +1,10 @@
-* {
+body {
     margin: 0;
     padding: 0;
+    @media screen and (min-width:360px) and (max-width:767px){
+    background: white;
+    }
+
 }
 
 header {
@@ -10,7 +14,8 @@ header {
 .logo {
     background-image: url(img/cycling\ nepaal1.png);
     background-size: 100% 100%;
-    width: 10%;
+    width: 7%;
+    margin: 10px;
 }
 
 
@@ -98,11 +103,12 @@ header div ul li hr {
 
 .menu2 nav ul {
     display: flex;
+background: #00000089;
 }
 
 .menu2 nav ul li {
     list-style: none;
-    margin: 4% 3%;
+    margin: 5.5% 3%;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

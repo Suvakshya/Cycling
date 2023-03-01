@@ -12,7 +12,8 @@ header {
 .logo {
     background-image: url(img/cycling\ nepaal1.png);
     background-size: 100% 100%;
-    width: 10%;
+    width: 7%;
+    margin: 10px;
 }
 
 
@@ -100,11 +101,12 @@ header div ul li hr {
 
 .menu2 nav ul {
     display: flex;
+background: #00000089;
 }
 
 .menu2 nav ul li {
     list-style: none;
-    margin: 4% 3%;
+    margin: 5.5% 3%;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -123,7 +125,7 @@ header div ul li hr {
     justify-content: space-between;
     justify-content: space-around;
     margin-top: 2%;
-    color: white;
+    color: rgb(254, 254, 254);
 }
 
 .firstevent1 {
@@ -133,6 +135,10 @@ header div ul li hr {
     width: 30%;
     position: relative;
 }
+.firstevent1:hover{
+    opacity: 0.7;
+}
+
 
 .fe1 {
     width: 100%;
@@ -150,6 +156,9 @@ header div ul li hr {
     width: 30%;
     position: relative;
 }
+.firstevent2:hover {
+    opacity: 0.7;
+}
 
 .fe2 {
     width: 100%;
@@ -166,6 +175,9 @@ header div ul li hr {
     height: 100%;
     width: 30%;
     position: relative;
+}
+.firstevent3:hover {
+    opacity: 0.7;
 }
 
 .fe3 {
@@ -193,6 +205,9 @@ header div ul li hr {
     width: 30%;
     position: relative;
 }
+.secondevent1:hover {
+    opacity: 0.7;
+}
 .se1 {
     width: 100%;
     height: 35%;
@@ -208,6 +223,9 @@ header div ul li hr {
     width: 30%;
     position: relative;
 }
+.secondevent2:hover {
+    opacity: 0.7;
+}
 .se2 {
     width: 100%;
     height: 35%;
@@ -222,6 +240,9 @@ background: url(img/pexels-run-ffwpu-5687405.jpg);
     height: 100%;
     width: 30%;
     position: relative;
+}
+.secondevent3:hover {
+    opacity: 0.7;
 }
 .se3 {
     width: 100%;
@@ -246,6 +267,9 @@ background: url(img/pexels-run-ffwpu-5687405.jpg);
     width: 30%;
     position: relative;
 }
+.thirdevent1:hover {
+    opacity: 0.7;
+}
 .te1 {
     width: 100%;
     height: 35%;
@@ -259,7 +283,10 @@ background: url(img/pexels-run-ffwpu-5687405.jpg);
     background-size: cover;
     height: 100%;
     width: 30%;
-position: relative;
+    position: relative;
+}
+.thirdevent2:hover {
+    opacity: 0.7;
 }
 .te2 {
     width: 100%;
@@ -275,6 +302,9 @@ position: relative;
     height: 100%;
     width: 30%;
     position: relative;
+}
+.thirdevent3:hover {
+    opacity: 0.7;
 }
 .te3 {
     width: 100%;
@@ -299,6 +329,9 @@ position: relative;
     width: 30%;
     position: relative;
 }
+.forthevent1:hover {
+    opacity: 0.7;
+}
 .fe1 {
     width: 100%;
     height: 35%;
@@ -314,6 +347,9 @@ position: relative;
     width: 30%;
     position: relative;
 }
+.forthevent2:hover {
+    opacity: 0.7;
+}
 .fe2 {
     width: 100%;
     height: 35%;
@@ -328,6 +364,9 @@ position: relative;
     height: 100%;
     width: 30%;
     position: relative;
+}
+.forthevent3:hover {
+    opacity: 0.7;
 }
 .fe3 {
     width: 100%;

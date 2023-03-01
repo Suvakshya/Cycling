@@ -12,7 +12,8 @@ header {
 .logo {
     background-image: url(img/cycling\ nepaal1.png);
     background-size: 100% 100%;
-    width: 10%;
+    width: 7%;
+    margin: 10px;
 }
 
 
@@ -43,14 +44,16 @@ header div ul li hr {
     color: white;
     font-size: large;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     list-style: none;
     margin: 2% 5%;
 }
 
+
 .menu1 ul li a {
     color: white;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .menu2 {
@@ -100,11 +103,12 @@ header div ul li hr {
 
 .menu2 nav ul {
     display: flex;
+    background: #00000089;
 }
 
 .menu2 nav ul li {
     list-style: none;
-    margin: 4% 3%;
+    margin: 5.5% 3%;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -196,14 +200,21 @@ main {
     height: 100%;
     left: 48%;
 }
+.changing1:hover{
+    opacity: 0.8;
+    
+}
 
 .changing2 {
     position: relative;
-    width: 50%;
+    width: 49%;
     height: 100%;
     right: 50%;
     color: rgb(58, 172, 117);
     font-size: x-large;
+}
+.changing2:hover {
+    opacity: 0.7;
 }
 
 /* =============================contain2 end here============================ */
@@ -228,6 +239,9 @@ main {
     color: rgb(58, 172, 117);
     font-size: x-large;
 }
+.change1:hover {
+    opacity: 0.7;
+}
 
 .change2 {
     background: url(img/pexels-irene-lasus-90454.jpg);
@@ -235,7 +249,9 @@ main {
     width: 50%;
     height: 100%;
 }
-
+.change2:hover {
+    opacity: 0.7;
+}
 /* ==========================contain3 endhere===================================== */
 .contain4 {
     width: 95%;
@@ -251,6 +267,9 @@ main {
     height: 100%;
     left: 50%;
 }
+.chan1:hover {
+    opacity: 0.7;
+}
 
 .chan2 {
     width: 50%;
@@ -258,7 +277,10 @@ main {
     color: rgb(58, 172, 117);
     font-size: x-large;
     margin-left: 2%;
-    padding-left: 10%;
+    padding-left: 1%;
+}
+.chan2:hover {
+    opacity: 0.7;
 }
 
 ul {
